@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace PhoneManager.Service
 {
+    /// <summary>
+    /// Data access layer
+    /// </summary>
     public interface IDbService
     {
         PhoneNumberDto AddorUpdate(PhoneNumberDto phoneNumberDto);

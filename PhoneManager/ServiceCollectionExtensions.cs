@@ -9,7 +9,7 @@ namespace PhoneManager
         public static void AddPhoneManagerServices(this IServiceCollection services)
         {
             services.AddScoped<IPhoneNumberManager, PhoneNumberManager>();
-            services.AddSingleton<IDbService, DbService>();
+            services.AddSingleton<IDbService, FakeDbService>();
         }
     }
 }

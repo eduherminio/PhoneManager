@@ -2,12 +2,15 @@
 using System.Linq;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Text;
 using PhoneManager.Dto;
 
 namespace PhoneManager.Service.Impl
 {
-    public class DbService : IDbService
+    /// <summary>
+    /// PoC, untested.
+    /// Should probably receive Model entities rather data transfer objects
+    /// </summary>
+    public class FakeDbService : IDbService
     {
         private readonly ConcurrentDictionary<Guid, HashSet<string>> _dbMock = new ConcurrentDictionary<Guid, HashSet<string>>();
 
