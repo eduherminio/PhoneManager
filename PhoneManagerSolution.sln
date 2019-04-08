@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneManager", "PhoneManage
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneManager.Api", "PhoneManager.Api\PhoneManager.Api.csproj", "{64A98E06-FAC7-4E9F-B75D-279D5C1936A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneManager.Api.Test", "PhoneManager.Api.Test\PhoneManager.Api.Test.csproj", "{6185D106-95A6-477C-97F9-DE5993BFF978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{64A98E06-FAC7-4E9F-B75D-279D5C1936A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64A98E06-FAC7-4E9F-B75D-279D5C1936A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A98E06-FAC7-4E9F-B75D-279D5C1936A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6185D106-95A6-477C-97F9-DE5993BFF978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6185D106-95A6-477C-97F9-DE5993BFF978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6185D106-95A6-477C-97F9-DE5993BFF978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6185D106-95A6-477C-97F9-DE5993BFF978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
