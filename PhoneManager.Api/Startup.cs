@@ -51,6 +51,8 @@ namespace PhoneManager.Api
             services.AddMvcCore().AddApiExplorer();
             services.AddMvc();
 
+            services.AddPhoneManagerServices();
+
             return services.BuildServiceProvider();
         }
 
