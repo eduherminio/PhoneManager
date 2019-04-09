@@ -23,7 +23,7 @@ namespace PhoneManager.Api.Swagger
                         Description = apiInfo.Description,
                         TermsOfService = "Eduardo Cáceres de la Calle, all rights reserved",
                         Contact = new Contact() { Name = "Eduardo Cáceres de la Calle" },
-                        License = new License { Name = "GNU GENERAL PUBLIC LICENSE Version 3", Url = "https://github.com/eduherminio/PhotoManager/blob/master/LICENSE" }
+                        License = new License { Name = "GNU GENERAL PUBLIC LICENSE Version 3", Url = "https://github.com/eduherminio/PhoneManager/blob/master/LICENSE" }
                     }
                 );
 
