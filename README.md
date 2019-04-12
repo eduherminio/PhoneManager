@@ -15,4 +15,4 @@ REST APIs OpenApi specification is automatically generated on build and copied t
 
 When `PhoneManager.Api` project is running, API documentation can be accessed in <project_uri>/swagger/index.html (https://localhost:8002/swagger/index.html by default, configurable in `appsettings.json` file or through environment variables.
 
-That page can be used as to test the api as well.
+That page can be used to test the api as well.
